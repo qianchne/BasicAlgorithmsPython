@@ -1,5 +1,6 @@
 ### chan 2019/12/24
 ### time o(n^2), space o(1)
+### whatever the sequence is, the T is always o(n^2)
 
 ### first version
 def Selection1(arr):
