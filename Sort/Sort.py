@@ -1,6 +1,4 @@
 ### chan 2019/12/24
-### ten sort algorithm
-
 ### time o(n^2), space o(1)
 ### first version
 def Bubble1(arr):
@@ -32,6 +30,7 @@ def Bubble2(arr):
             break
         currentLen = currentLen - 1
     print(arr)
+    
 if __name__ == "__main__":
     arr = [1,2,3,4,5,6,7,8,9,10,13,12,11]
     Bubble2(arr)
