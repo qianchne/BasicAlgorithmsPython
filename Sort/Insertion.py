@@ -1,6 +1,7 @@
 ### chan 2019/12/24
 ### time o(n^2), space o(1)
 ### 在序列较小规模和较有序的情况下效率很高
+### 小样本是优先考虑的算法，简单好用。
 
 ### version one 
 def Insertion1(arr):
