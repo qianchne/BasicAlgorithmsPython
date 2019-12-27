@@ -32,9 +32,6 @@ def quicksort(arr,low, high):
         quicksort(arr, low, middle-1)
         quicksort(arr, middle+1, high)
 
-
-
-
 if __name__ == "__main__":
     arr = [42, 33, 25, 16, 7, 42, 25, 20, 5, 6, 4, 3, 2, 1, 19]
     high = len(arr)-1

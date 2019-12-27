@@ -1,14 +1,34 @@
-## DataStructure in Python
+## Basic Algorithms in Python
 
->Chan 2019/12/23    
+>Chan 2019/12/23    python学习项目
 >
->学习项目，用python实现大佬[MisterBooo](https://github.com/MisterBooo)的[LeetCodeAnimation](https://github.com/MisterBooo/LeetCodeAnimation)
 
 
 
-### 排序
 
-[排序总结](Sort/Sort.md)：主要是讨论各种排序的各种优缺点以及适合情形。重点讨论，插入、堆、快速排序。以及极大数据时，归并排序的应用。
+
+###  主要内容
+
+#### [基础数据结构](BasicAlgo/BA.md)
+
+- 线性数据结构：队列，栈，链表
+- 树
+- 图
+
+#### [排序](Sort/Sort.md)
+
+- 冒泡排序
+- 插入排序
+- 希尔排序
+- 快速排序
+- 堆排序
+- 归并排序
+
+
+
+
+
+### 参考
 
 
 
