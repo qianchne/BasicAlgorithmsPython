@@ -9,7 +9,7 @@
 
 ###  主要内容
 
-#### [基础数据结构](BasicAlgo/BA.md)
+#### [基础数据结构](DataStructure/DataStructurePython.md)
 
 - 线性数据结构：队列，栈，链表
 - 树
