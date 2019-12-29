@@ -33,7 +33,28 @@ class BinaryTree():
     
     def getKeyVal(self):
         return self.key
-    
+
+## 前序遍历
+def preOrder(tree):
+    if tree :
+        print(tree.getKeyVal())
+        preOrder(tree.getLeftChild())
+        preOrder(tree.getRightChild())
+
+## 后序遍历
+def postOrder(tree):
+    if tree :
+        postOrder(tree.getLeftChild())
+        postOrder(tree.getRightChild())
+        print(tree.getKeyVal())
+
+## 中序遍历
+def midOrder(tree):
+    if tree :
+        midOrder(tree.getLeftChild())
+        print(tree.getKeyVal)
+        midOrder(tree.getRightValue())
+
 r = BinaryTree('a')
 print(r.getKeyVal())
 r.insertLeft('b')
