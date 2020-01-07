@@ -50,12 +50,13 @@ def postOrder(tree):
 
 ## 中序遍历：先左子树，再根节点，最后右子树。
 def midOrder(tree):
-    if tree :
+    if tree != None :
         midOrder(tree.getLeftChild())
-        print(tree.getKeyVal)
-        midOrder(tree.getRightValue())
+        print(tree.getKeyVal())
+        midOrder(tree.getRightChild())
 
-r = BinaryTree('a')
-print(r.getKeyVal())
-r.insertLeft('b')
-print(r.getLeftChild().getKeyVal())
+
+#r = BinaryTree('a')
+#print(r.getKeyVal())
+#r.insertLeft('b')
+#print(r.getLeftChild().getKeyVal())

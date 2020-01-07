@@ -3,8 +3,8 @@
 
 ## define a stack, FILO
 class stack:
-    def __init__(self, originStack):
-        self.items = originStack     
+    def __init__(self):
+        self.items = []   
         self.message = ''
     
     def isEmpty(self):
@@ -14,13 +14,16 @@ class stack:
         self.items.append(item)
 
     def pop(self):
-        self.items.pop()
-        if len(self.items) == 0:
-            self.message = 'Warring: the stack is empty'
-            print(self.message)
+        if len(self.items)-1 >= 0 :
+            self.items.pop()
+        else :
+            print('stack is empty')
     
     def peek(self):
-        return self.items[len(self.items)-1]
+        if len(self.items)-1 >= 0 :
+            return self.items[len(self.items)-1]
+        else :
+            print('stack is empty')
     
     def size(self):
         return len(self.items)
@@ -31,7 +34,9 @@ class stack:
 
 
 if __name__ == "__main__":
-    s = stack([1,2])
+    s = stack()
+    s.push(1)
+    s.push(2)
     s.pop()
     s.pop()
     #s.pop()
