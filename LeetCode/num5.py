@@ -1,5 +1,5 @@
 ### chan 2020/1/8
-### problen：https://leetcode-cn.com/problems/longest-palindromic-substring/
+### problem：https://leetcode-cn.com/problems/longest-palindromic-substring/
 ### reference:https://github.com/MisterBooo/LeetCodeAnimation
 
 ### version one : 中心扩展法。关键在于解决奇偶个数的回文序列
